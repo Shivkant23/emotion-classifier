@@ -1,0 +1,15 @@
+*.env
+
+raw/
+processed/
+
+*.csv
+*.parquet
+*.zip
+
+# Ignore local processed data CSV chunks
+data/processed/train.csv
+data/processed/test.csv
+
+# Ensure the required assignment validation file gets tracked safely
+!data/processed/id2label.json
