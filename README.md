@@ -135,3 +135,13 @@ processed/
 ## Author
 
 MLOps Pipeline Project – Task 2: Data Preparation & Normalisation
+
+## URL:
+
+Wandb url: https://wandb.ai/g25ait2102-iit/emotion-classification
+
+Kaggle url: https://www.kaggle.com/code/shivkantsawarkar/notebook-project
+
+HuggingFace url: https://huggingface.co/Shubham231/distilbert_v1
+
+# Accuracy: 94.22
