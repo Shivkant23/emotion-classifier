@@ -68,3 +68,5 @@ def train_model(
     print(metrics)
 
     wandb.finish()
+
+    

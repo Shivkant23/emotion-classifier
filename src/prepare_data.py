@@ -1,7 +1,6 @@
 import os
 import re
 import json
-import pandas as pd
 from datasets import load_dataset
 
 # ==================================================
@@ -82,6 +81,8 @@ print("\nid2label.json created")
 # Text Cleaning
 # ==================================================
 
+
+
 def clean_text(text):
     text = str(text)
 
@@ -99,6 +100,8 @@ def clean_text(text):
 # ==================================================
 # Process Function
 # ==================================================
+
+
 
 def preprocess(df):
 
@@ -120,9 +123,13 @@ def preprocess(df):
 
     return df
 
+
+
 # ==================================================
 # Preprocess
 # ==================================================
+
+
 
 print("\nCleaning train data...")
 train_df = preprocess(train_df)
@@ -166,3 +173,4 @@ print(f"Test: {len(test_df)}")
 
 print("\nSample Record:")
 print(train_df.head(3))
+
